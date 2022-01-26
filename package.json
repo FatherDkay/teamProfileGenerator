@@ -1,0 +1,27 @@
+{
+  "name": "teamprofilegenerator",
+  "version": "1.0.0",
+  "description": "Creates a team profile using the terminal",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FatherDkay/teamProfileGenerator.git"
+  },
+  "author": "Paul Bailey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FatherDkay/teamProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/FatherDkay/teamProfileGenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "jest": "^27.4.7",
+    "node": "^17.4.0"
+  }
+}
