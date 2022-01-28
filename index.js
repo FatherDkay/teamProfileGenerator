@@ -135,7 +135,7 @@ function addHtml(newMember) {
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">ID: ${id}</li>
                     <a href= "mailto: ${email}" class="list-group-item">Email: ${email}</a>
-                    <a href= "${gitHub}" class="list-group-item">GitHub: ${gitHub}</a>
+                    <a href= "https://github.com/${gitHub}" class="list-group-item">GitHub: ${gitHub}</a>
                 </ul>
             </div>
             </div>`;
