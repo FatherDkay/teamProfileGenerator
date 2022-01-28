@@ -6,13 +6,13 @@ test("return \"Engineer\"", () => {
     expect(e.getRole()).toBe(testValue);
 });
 
-test("create gitHub", () => {
+test("create GitHub", () => {
     const testValue = "BobsGitHub";
     const e = new Engineer("Bob", 1, "bob@email.com", testValue, "Engineer");
-    expect(e.gitHub).toBe(testValue);
+    expect(e.GitHub).toBe(testValue);
 });
 
-test("get gitHub", () => {
+test("getGitHub", () => {
     const testValue = "BobsGitHub";
     const e = new Engineer("Bob", 1, "bob@email.com", testValue, "Engineer");
     expect(e.getGitHub()).toBe(testValue);

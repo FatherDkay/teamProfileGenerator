@@ -79,7 +79,7 @@ function addMember() {
             employees.push(newMember);
             addHtml(newMember)
             .then(function() {
-                if (moreMembers === "yes") {
+                if (moreMembers === "Yes") {
                     return addMember();
                 } else {
                     return finishHtml();
@@ -114,7 +114,6 @@ function startHtml() {
             console.log(err);
         }
     });
-    console.log("start");
 }
 
 function addHtml(newMember) {
@@ -171,7 +170,9 @@ function addHtml(newMember) {
                     <li class="list-group-item">Office Number: ${officeNumber}</li>
                 </ul>
             </div>
-            </div>`;
+            </div>
+            <br />
+            `;
         }
         console.log("Adding Team Member");
         fs.appendFile("./dist/team.html", data, function(err) {
@@ -195,7 +196,7 @@ function finishHtml() {
             console.log(err);
         };
     });
-    console.log("end");
+    console.log("Team Page Created.  File located in /dist");
 }
 
 
