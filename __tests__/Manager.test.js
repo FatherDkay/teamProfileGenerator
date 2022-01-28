@@ -7,13 +7,13 @@ test("return \"Manager\"", () => {
 });
 
 test("create officeNumber", () => {
-    const testValue = 111;
+    const testValue = 123;
     const e = new Manager("Bob", 1, "bob@email.com", testValue, "Manager");
     expect(e.officeNumber).toBe(testValue);
 });
 
 test("get officeNumber", () => {
-    const testValue = 1;
+    const testValue = 123;
     const e = new Manager("Bob", 1, "bob@email.com", testValue, "Manager");
     expect(e.getOfficeNumber()).toBe(testValue);
 });
